@@ -4,19 +4,24 @@ public class Main {
         /*1.*/
         Mascota mascota = new Mascota();
         mascota.mostrarMascota();
+        mascota.mascotamp();
         /*2.*/
         Perro perro = new Perro(70.0, "macho","Tobby","Golden");
+        perro.mostrarPerro();
+        perro.perromp();
         perro.mostrarMascota();
         perro.mascotamp();
         /*3.*/
         Gato gato = new Gato(20.0,"hembra","michi","siames","negro");
+        gato.mostrarGato();
+        gato.gatomp();
         gato.mostrarMascota();
         gato.mascotamp();
         /*4.*/
         Tortuga tortuga = new Tortuga(50.0,"macho","Max",20);
         tortuga.mostrarMascota();
         tortuga.mascotamp();
-        tortuga.mostrarMascota();
+        tortuga.mostrarTortuga();
         tortuga.tortugamp();
          /*5.*/
         Conejo conejo = new Conejo();
