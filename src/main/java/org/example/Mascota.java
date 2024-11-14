@@ -26,8 +26,7 @@ public class Mascota {
     public void mostrarMascota() {
         System.out.println("Tamano: " + tamano);
         System.out.println("Sexo: " + sexo);
-        System.out.println("tamaño: " + tamano);
-        System.out.println("Sexo: " + sexo);
+
     }
     public void mascotamp(){
         System.out.println("Animales que se pueden cuidar en casa");
